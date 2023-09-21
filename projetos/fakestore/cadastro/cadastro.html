@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fake Store</h1>
+    </header>
+    <main>
+        <div id="container">
+            <h2>Cadastre-se</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, illum! Commodi doloribus eos, accusamus
+                nulla hic minima odit ab quos! Fugit incidunt.</p>
+
+
+
+            <form action="cadastro.js" method="post" autocomplete="on">
+
+                <!-- NOME COMPLETO -->
+                <label for="inome">Nome</label> <br>
+                <input type="text" name="inome" id="nome"
+                required
+                placeholder="Nome completo" 
+                minlength="7" 
+                maxlength="30" 
+                autocomplete="name"> <br>
+
+
+                <!-- DATA DE NASCIMENTO -->
+                <label for="inascimento">Data de nascimento</label> <br>
+                <input type="date" name="inascimento" id="nascimento"
+                required> <br>
+
+
+                <!-- CELULAR -->
+                <label for="icelular">Celular</label> <br>
+                <input type="tel" name="icelular" id="celular"
+                required
+                placeholder="(xx)xxxxx-xxxx" 
+                min="11" 
+                max="11" 
+                autocomplete="tel-national"> <br>
+
+
+                <!-- E-MAIL -->
+                <label for="iemail">E-mail</label> <br>
+                <input type="email" name="iemail" id="email"
+                required
+                placeholder="Seu E-mail" 
+                minlength="7" 
+                maxlength="30" 
+                autocomplete="email"> <br>
+
+
+                <!-- SENHA -->
+                <label for="isenha">Senha</label> <br>
+                <input type="password" name="isenha" id="senha"
+                required
+                placeholder="Senha" 
+                minlength="7" 
+                maxlength="15" 
+                autocomplete="current-password"> <br>
+
+
+                <!-- BOTAO CADASTRAR -->
+                
+                    <input class="btos" id="bto-cadastro" type="submit" value="Cadastrar">
+                    <input class="btos"  id="bto-limpar" type="reset" value="Limpar">
+                
+
+
+
+            </form>
+
+
+
+
+        </div>
+        <img src="../img/pc.jpg" alt="img">
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>

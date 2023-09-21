@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root{
+    --cor1: #713ABE;
+    --cor2: #5B0888;
+    --cor3: #000000;
+    --cor4: #ffffff;
+
+    --font1: 'Fuggles', sans-serif;
+    --font2:  'Roboto Slab', serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #8d5cd1, #3a008b);
+    height: 100vh;
+    font-family: var(--font2);
+}
+
+
+header > h1{
+    color: var(--cor4);
+    font-family: var(--font1);
+    font-size: 5em;
+    margin-left: 50px;
+    text-shadow: 10px 10px 7px black;
+}
+main{
+    display: flex;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 650px;
+    height: 330px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.704);
+}
+
+main > div{
+    width: 300px;
+    height: 300px;
+}
+
+div > h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+div > p{
+    font-size: .8em;
+    text-align: justify;
+    padding: 10px;
+}
+
+main > img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+form > label{
+    margin-left: 8px;
+}
+
+form > input{ 
+    width: 90%;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+form > #bto{
+    margin-top: 10px;
+    background-color: #5B0888;
+    border: 0;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 1.1em;
+}
+form > #bto:hover{
+    background-color: #713ABE;
+    opacity: .9;
+}
+
+#cadastrar{
+    text-align: end;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#cadastrar a{
+    text-decoration: none;
+}
+#cadastrar a:hover{
+    text-decoration: underline;
+    color: #713ABE;
+    opacity: .9;
+}
