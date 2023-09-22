@@ -47,6 +47,12 @@ header > nav > a:hover{
     color: rgb(69, 69, 69);
 }
 
+#ico-menu{
+    display: none;
+}
+
+
+
 /* -------------HEADER-------------- */
 
 
@@ -65,9 +71,8 @@ main #container{
 
 #descricao-inicio{
     position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-100%, -70%);
+    top: 150px;
+    left: 250px;
 
     background-color: rgba(0, 0, 0, 0.644);
     height: 250px;

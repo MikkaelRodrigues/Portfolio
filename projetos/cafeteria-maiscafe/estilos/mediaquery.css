@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (max-width:960px){
+
+    header > h1{
+        font-size: 2em;
+    }
+
+    nav > a{
+        display: none;
+    }
+
+    #descricao-inicio{
+        left: 0px;
+        margin: auto;
+        width: 300px;
+    }
+
+    #ico-menu{
+        display: block;
+        margin: 45px 25px;
+    }
+
+
+    main #sobre{
+        width: 300px;
+        margin: 200px auto 0px auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+}
