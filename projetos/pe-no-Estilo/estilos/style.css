@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+:root{
+    --font1: 'Cinzel', sans-serif;
+    --font2: 'Black Ops One', sans-serif;
+}
+
+body{
+    font-family: var(--font1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+}
+
+header > h1{
+    font-family: var(--font2);
+    color: white;
+    margin: 28px 0 0 20px;
+}
+
+header > nav{
+    margin: 36px 28px 0 0px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+header a:hover{
+    color: rgba(255, 255, 255, 0.747);
+    text-decoration: underline;
+}
+
+header > #menu{
+    display: none;
+}
+
+#introducao{
+    width: 500px;
+    margin: 150px auto;
+    text-align: justify;
+}
+
+#introducao > h2{
+    margin-bottom: 20px;
+}
+
+main #container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 150px auto;
+}
+
+
+main #container > .tenis{
+    margin: auto;
+    height: 450px;
+    width: 392px;
+}
+
+.tenis > p{
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+div .imagem{
+    background-color: aqua;
+    height: 339px;
+    width: 374px;
+    margin: 10px auto;
+    
+}
+
+#tenis1{
+    background-image: url(../img/pexels-aman-jakhar-1124466.jpg);
+    background-size: cover;
+    background-position: left center;
+}
+
+#tenis2{
+    background-image: url(../img/pexels-erik-mclean-4723006\ \(1\).jpg);
+    background-size: cover;
+    background-position: left center;
+}
+
+#tenis3{
+    background-image: url(../img/pexels-mnz-1598505.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#tenis4{
+    background-image: url(../img/pexels-rafa-de-345415.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#tenis5{
+    background-image: url(../img/pexels-ray-piedra-1537671\ \(1\).jpg);
+    background-size: cover;
+    background-position: left center;
+}
+
+#tenis6{
+    background-image: url(../img/pexels-shane-aldendorff-786003.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+
+footer #contato{
+    width: 320px;
+    margin: 200px auto 0px auto;
+    padding-bottom: 5px;
+}
+
+footer #contato h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: var(--font1);
+}
+
+footer #contato p{
+    text-align: center;
+}
+
+footer #contato span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

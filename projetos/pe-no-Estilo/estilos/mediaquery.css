@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1320px){
+
+    main #container{
+        width: 864px;
+        
+    }
+}
+
+
+@media screen and (max-width:888px){
+
+    main #container{
+        width: 422px;
+        
+    }
+
+}
+
+@media screen and (max-width:580px){
+
+    header > nav{
+        display: none;
+    }
+
+    header > #menu{
+        display: block;
+        color: white;
+        margin: 31px 25px 0 0;
+    }
+
+    #introducao{
+        width: 280px;
+        margin: 150px auto;
+        text-align: justify;
+    }
+
+    footer #contato{
+        width: 300px;
+        margin: 200px auto 0px auto;
+        padding-bottom: 5px;
+    }
+
+    main #container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 150px auto;
+    }
+
+    
+    div .imagem{
+        background-color: aqua;
+        height: 290px;
+        width: 290px;
+        margin: 10px auto;
+        
+    }
+
+    footer #contato{
+        width: 320px;
+        margin: 40px auto 0px auto;
+        padding-bottom: 5px;
+    }
+}
