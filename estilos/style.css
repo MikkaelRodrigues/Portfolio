@@ -98,7 +98,7 @@ main > #projetos > h2{
     margin-bottom: 30px;
     font-size: 3em;
 }
-#projetos  #container{
+#projetos #container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
